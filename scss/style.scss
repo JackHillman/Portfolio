@@ -1,2 +1,33 @@
 @import "compass/reset";
 @import "compass";
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
+html, body {
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+.content {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	font-family: 'Inconsolata', ;
+	position: relative;
+
+	a {
+		color: #666;
+		text-decoration: none;
+		@include transition(.2s);
+
+		&:hover {
+			color: black;
+		}
+	}
+}
