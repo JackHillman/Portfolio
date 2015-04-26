@@ -86,16 +86,3 @@ h1 {
   font-family: "Inconsolata";
   position: relative;
 }
-/* line 24, ../scss/style.scss */
-h1 a {
-  color: #666;
-  text-decoration: none;
-  -moz-transition: 0.2s;
-  -o-transition: 0.2s;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-/* line 29, ../scss/style.scss */
-h1 a:hover {
-  color: black;
-}
